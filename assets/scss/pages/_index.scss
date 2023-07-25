@@ -1,3 +1,62 @@
+//base
+* {
+  // outline: 1px red solid;
+}
 .index-title {
   font-size: 100px;
 }
+
+// nav
+
+nav {
+  width: 296px;
+}
+nav span {
+  color: black;
+  margin-right: 16px;
+}
+
+nav .nav-link {
+  display: flex;
+  align-items: center;
+}
+
+nav ul li .nav-link {
+  padding-left: 0px;
+}
+
+// profile-pic
+
+.profile-pic {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.profile span {
+  font-size: 14px;
+  line-height: 24px;
+  margin: 0px;
+}
+
+.profile a {
+  text-decoration: none;
+}
+
+.quest-list li:hover {
+  background-color: #f8f9fa;
+  opacity: 1;
+}
+
+.quest-list a:hover {
+  opacity: 1;
+}
+
+
+
+
+// .modal.show {
+//   justify-content: center;
+//   display: flex;
+//   flex-direction: column;
+// }

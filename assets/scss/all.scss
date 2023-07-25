@@ -1,11 +1,17 @@
 @import "../../node_modules/bootstrap/scss/functions";
-@import './utils/variables';
+@import "./utils/variables";
 
+@import "./layout/header.scss";
+@import "./layout/footer.scss";
 
-@import './layout/header.scss';
-@import './layout/footer.scss';
+@import "./reboot.scss";
+@import "./pages/index.scss";
+@import "./pages/admin.scss";
 
-
-@import './pages/index.scss';
+@import "./component/button.scss";
+@import "./component/ck-editor.scss";
 
 @import "../../node_modules/bootstrap";
+
+@import "./base/base";
+@import "./component/table.scss";

@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Roboto+Mono&display=swap");
+
+body {
+  font-family: "Lato", "Roboto Mono", sans-serif, monospace;
+  color: black;
+  font-size: 16px;
+}
+
+.gray-600 {
+  color: #6c757d;
+}
+
+.black {
+  color: black;
+}
+
+.green {
+  color: #198754;
+}
+
+a:hover {
+  opacity: 0.5;
+}
+
+.round-2 {
+  border-radius: 2px 2px 0px 0px;
+}
+
+.border-gray-400 {
+  border: 1px solid #ced4da;
+}
+
+.modal-border-gray-400 {
+  border: -1px solid #ced4da;
+}
+.fs-12 {
+  font-size: 12px;
+}
+
+.fs-14 {
+  font-size: 14px;
+}
+
+.fs-20 {
+  font-size: 20px;
+}
+
+.lh-24 {
+  line-height: 24px;
+}
+
+.round-4 {
+  border-radius: 2px 2px 2px 2px;
+}
+
+.pb-14 {
+  padding-bottom: 224px;
+}
+
+.gray-400 {
+  color: #ced4da;
+}
+
+.border-gray-900 {
+  border: 1px solid #212529;
+}
+
+.gray-900 {
+  color: #212529;
+}
+
+.danger {
+  color: #dc3545;
+}
+
+.border-danger {
+  border: 1px solid #dc3545;
+}
+
