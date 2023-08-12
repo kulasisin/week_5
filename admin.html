@@ -13,17 +13,22 @@
     <link
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet"
-    />
-    <script type="module" crossorigin src="/week_5/assets/main-bf603ed0.js"></script>
-    <link rel="stylesheet" href="/week_5/assets/main-657b3b62.css">
+    /><link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+ 
+    <script type="module" crossorigin src="/week_5/assets/main-a1952bdd.js"></script>
+    <link rel="stylesheet" href="/week_5/assets/main-1a034552.css">
   </head>
   <body>
+    <script>
+      AOS.init();
+    </script>
     <div class="w-100 d-flex">
-      <nav class="nav d-flex flex-column bg-light h-auto py-5 fw-bold">
+      <nav class="nav d-flex flex-column bg-light h-auto py-5 fw-bold" data-aos="fade-right">
         <a href="#" class="ps-5 mb-5">
           <img src="/week_5/assets/logo-ANSWER-a11e3fef.svg" alt="logo" />
         </a>
-        <ul>
+        <ul data-aos="fade-right">
           <li>
             <a class="nav-link" aria-current="page" href="#">
               <span class="material-symbols-outlined me-7 my-2">
@@ -85,7 +90,7 @@
           </div>
         </a>
       </nav>
-      <main class="w-100">
+      <main class="w-100" data-aos="zoom-in-left">
         <div class="p-5 search-bar d-flex align-items-center">
           <h1 class="fs-4 fw-bold mb-0 me-5">Admin</h1>
           <!-- Button trigger modal -->
