@@ -14,14 +14,24 @@
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   </head>
+
   <body>
+    <script>
+      AOS.init();
+    </script>
     <div class="w-100 d-flex">
-      <nav class="nav d-flex flex-column bg-light h-auto py-5 fw-bold">
+      <nav
+        class="nav d-flex flex-column bg-light h-auto py-5 fw-bold"
+        data-aos="fade-right"
+      >
         <a href="#" class="ps-5 mb-5">
           <img src="../assets/images/logo-ANSWER.svg" alt="logo" />
         </a>
-        <ul>
+
+        <ul data-aos="fade-right">
           <li>
             <a class="nav-link" aria-current="page" href="#">
               <span class="material-symbols-outlined me-7 my-2">
@@ -118,8 +128,16 @@
             >
           </div>
         </div>
-        <div class="main-content d-flex p-5 pt-0 gap-3">
-          <div class="quest-list col-4">
+        <div
+          class="main-content d-flex p-5 pt-0 gap-3"
+          data-aos="fade-up"
+          data-aos-duration="500"
+        >
+          <div
+            class="quest-list col-4"
+            data-aos="fade-up"
+            data-aos-duration="1500"
+          >
             <div class="dropdown">
               <button
                 class="btn black bg-white align-items-center d-flex fw-bold p-0 mb-1"
@@ -201,7 +219,12 @@
               </li>
             </ul>
           </div>
-          <div class="respond-area position-relative col-8">
+          <div
+            class="respond-area position-relative col-8"
+            data-aos="fade-up"
+            data-aos-duration="3000"
+            data-aos-delay="1000"
+          >
             <p class="text-end gray-600 fs-12 lh-24 mb-1">2 comments</p>
             <div class="card border-gray-400 round-2">
               <div class="card-header round-2 d-flex justify-content-between">
@@ -364,6 +387,7 @@
         </div>
       </main>
     </div>
+
     <script src="https://cdn.ckeditor.com/ckeditor5/29.0.0/classic/ckeditor.js"></script>
     <script type="module" src="../main.js"></script>
   </body>
